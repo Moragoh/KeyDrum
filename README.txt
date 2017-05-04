@@ -1,5 +1,4 @@
-A program that aims to able it's users to make some noise with simple keypresses on the keyboard.
-Will either accomplish that by using the Supercollider library or if that is too difficult for me, by playing downloaded mp3 files.
+A program that aims to able it's users to make some noise with simple keypresses on the keyboard, using the pygame library.
 
 made by comcast_wizard
 
