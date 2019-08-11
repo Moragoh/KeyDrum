@@ -20,13 +20,7 @@ font = pygame.font.SysFont('Arial', 12)
 
 '''
 songlist = font.render('List of songs:', False, (0,0,0))
-weez01 = font.render('Z: Buddy Holly - Weezer', False, (0,0,0))
-weez02 = font.render("X: You won't get with me tonight - Weezer", False, (0,0,0))
-weez03 = font.render('C: Getchoo - Weezer', False, (0,0,0))
-weez04 = font.render('V: The Futurescope Trilogy - Weezer', False, (0,0,0))
-gday01 = font.render('B: Jesus of Suburbia - Green Day', False, (0,0,0))
-gday02 = font.render('N: Bang Bang - Green Day', False, (0,0,0))
-oasis01 = font.render('M: Cigaretts & Alcohol - Oasis', False, (0,0,0))
+(Songs were removed on the published version)
 '''
 
 drumlist = font.render('List of drum effects:',False,(0,0,0))
@@ -108,49 +102,7 @@ while True:
         if event.type == pygame.KEYDOWN:
             #Choose background music
             #Choose a song (as background music), and then drum along.
-            '''
-            if event.key == pygame.K_z:
-            #Weezer - Buddy Holly
-                buddy = pygame.mixer.Sound('weez01.wav')
-                buddy.set_volume(0.55)
-                pygame.mixer.Channel(0).play(buddy)
-                
-            if event.key == pygame.K_x:
-            #Weezer - You won't get with me tonight
-                tonight = pygame.mixer.Sound('weez02.wav')
-                tonight.set_volume(0.55)
-                pygame.mixer.Channel(0).play(tonight)
-                
-            if event.key == pygame.K_c:
-            #Weezer - Getchoo crushing ver.
-                getchoo = pygame.mixer.Sound('weez03.wav')
-                getchoo.set_volume(0.55)
-                pygame.mixer.Channel(0).play(getchoo)
-                
-            if event.key == pygame.K_v:
-            #Weezer - Futurescope Trilogy
-                future = pygame.mixer.Sound('weez04.wav')
-                future.set_volume(0.55)
-                pygame.mixer.Channel(0).play(future)
-            
-            if event.key == pygame.K_b:
-            #Green Day - Jesus of Surburbia
-                jesus = pygame.mixer.Sound('gday01.wav')
-                jesus.set_volume(0.55)
-                pygame.mixer.Channel(0).play(jesus)
-                
-            if event.key == pygame.K_n:
-            #Green Day - Bang Bang
-                bang = pygame.mixer.Sound('gday02.wav')
-                bang.set_volume(0.6)
-                pygame.mixer.Channel(0).play(bang)
-                
-            if event.key == pygame.K_m:
-            #Oasis - Cigarettes & Alcohol
-                cigar = pygame.mixer.Sound('oasis01.wav')
-                cigar.set_volume(0.55)
-                pygame.mixer.Channel(0).play(cigar)
-            '''
+            #Songs were removed on the published version
             
             #Play sound effects
             #creates sound objects and assigns them into different channels so they can be played simultaneously
